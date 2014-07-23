@@ -1,0 +1,10 @@
+function example() {
+  function a() {} // Okay
+  var g = 20;
+  var ab = 10;
+  if (g) {
+    function b() {} // Danger!
+    return g;
+  }
+}
+console.log(example());
