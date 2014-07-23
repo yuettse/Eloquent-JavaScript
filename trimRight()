@@ -1,0 +1,4 @@
+console.log("  okay ".trimRight());
+// → okay
+console.log("|" + " a ".trimRight() + "|");
+// → |a |
