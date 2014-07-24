@@ -1,0 +1,26 @@
+function isEven(num) {
+  if ( num > 0 ) {
+    if ( num % 2 == 0 ) { 
+      return num +" is even";
+    } else if ( num % 2 == 1 ) {
+      return num + " is odd";
+    } else {
+      return num +" is float";
+    }
+  } else if ( 0 > num ) {
+    return " is negative";
+  } else {
+    return num + " undefine";
+  }
+}
+
+function isEven2(numz) {
+  return numz % 2 ? false : true;
+}
+
+console.log(isEven2(-1));
+
+console.log(isEven(50));
+console.log(isEven("75dch"));
+console.log(isEven(-1));
+console.log(isEven(1));
