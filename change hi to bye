@@ -1,0 +1,7 @@
+var x = "hi";
+
+var changeXtoBye = function() {
+  x = "BYE";
+}
+changeXtoBye();
+console.log(x);
